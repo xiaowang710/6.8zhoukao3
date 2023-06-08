@@ -1,7 +1,6 @@
 package com.example.a68zhoukao3.pay.util;
 
-
-import com.bawei.zhifubao.pay.SignUtils;
+import com.example.a68zhoukao3.pay.SignUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
