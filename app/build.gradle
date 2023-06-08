@@ -49,10 +49,10 @@ dependencies {
     implementation ('com.alibaba:arouter-api:1.5.2')//ARouter依赖   //版本要改成最新版本
     annotationProcessor 'com.alibaba:arouter-compiler:1.5.2' //ARouter依赖
 
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
-    implementation 'androidx.navigation:navigation-fragment:2.3.5'
-    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
+    implementation 'androidx.navigation:navigation-fragment:2.4.1'
+    implementation 'androidx.navigation:navigation-ui:2.4.1'
 
     def roomVersion = "2.4.3"
     implementation "androidx.room:room-runtime:$roomVersion"
@@ -63,32 +63,32 @@ dependencies {
     testImplementation "androidx.room:room-testing:$roomVersion"
 
 
-    implementation 'com.blankj:utilcodex:1.30.6'
+    implementation 'com.blankj:utilcodex:1.31.1'
     implementation 'com.youth.banner:banner:1.4.10'//轮播图
-    implementation 'com.blankj:utilcodex:1.30.6'
+    implementation 'com.blankj:utilcodex:1.31.1'
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.0'//万能适配器
     implementation 'com.android.support:recyclerview-v7:30.0.0'//recyclerview
     //核心必须依赖
     implementation 'com.scwang.smart:refresh-layout-kernel:2.0.3'
     //经典刷新头
     implementation 'com.scwang.smart:refresh-header-classics:2.0.3'
-    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
 
 //RxJava依赖:主要用于消息传递
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
-    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.21'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
     //Retrofit依赖
-    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     //Gson converter gson解析
-    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     //RxJava2 Adapter
-    implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
     //okhttp
-    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
-    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.11'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.11'
 
 //rxlifecycle异步线程生命周期管理
-    implementation 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
+    implementation 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.2'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
