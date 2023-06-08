@@ -44,6 +44,7 @@ android {
 }
 
 dependencies {
+    implementation(files("./libs/alipaysdk-15.8.05.211018174351.aar"))
 
     implementation ('com.alibaba:arouter-api:1.5.2')//ARouter依赖   //版本要改成最新版本
     annotationProcessor 'com.alibaba:arouter-compiler:1.5.2' //ARouter依赖
